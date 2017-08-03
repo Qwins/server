@@ -1,0 +1,26 @@
+uuid: cf4ab0b3-1a84-34cc-9487-87343ea2c2df
+timestamps:
+  login: 1501199757909
+  logout: 1501202833553
+  lastteleport: 1493039905689
+  kits:
+    start: 1501201578152
+    dekor: 1501201622473
+    miner: 1501201725980
+ipAddress: 127.0.0.1
+logoutlocation:
+  world: world
+  x: 259.5917723705191
+  y: 75.0
+  z: 4.2229973407008545
+  yaw: -49.53711
+  pitch: -90.0
+lastlocation:
+  world: world
+  x: -116.5
+  y: 68.0
+  z: 253.5
+  yaw: 0.0
+  pitch: 0.0
+afk: false
+money: '8494.0'

@@ -1,0 +1,126 @@
+---- Minecraft Crash Report ----
+// You're mean.
+
+Time: 20.07.17 15:12
+Description: Exception in server tick loop
+
+cpw.mods.fml.common.LoaderException: java.lang.NoClassDefFoundError: micdoodle8/mods/galacticraft/api/event/ZeroGravityEvent
+	at cpw.mods.fml.common.LoadController.transition(LoadController.java:163)
+	at cpw.mods.fml.common.Loader.preinitializeMods(Loader.java:559)
+	at cpw.mods.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:88)
+	at cpw.mods.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:319)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:176)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:631)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NoClassDefFoundError: micdoodle8/mods/galacticraft/api/event/ZeroGravityEvent
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Unknown Source)
+	at java.lang.Class.getDeclaredMethod(Unknown Source)
+	at cpw.mods.fml.common.eventhandler.EventBus.register(EventBus.java:66)
+	at galaxyspace.SolarSystem.core.proxy.CommonProxy.register_event(Unknown Source)
+	at galaxyspace.GalaxySpace.preInit(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:532)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119)
+	at cpw.mods.fml.common.Loader.preinitializeMods(Loader.java:556)
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: micdoodle8.mods.galacticraft.api.event.ZeroGravityEvent
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 37 more
+Caused by: java.lang.NullPointerException
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at micdoodle8.mods.miccore.MicdoodleTransformer.startInjection(MicdoodleTransformer.java:1995)
+	at micdoodle8.mods.miccore.MicdoodleTransformer.transformCustomAnnotations(MicdoodleTransformer.java:1025)
+	at micdoodle8.mods.miccore.MicdoodleTransformer.transform(MicdoodleTransformer.java:345)
+	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279)
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176)
+	... 39 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	KCauldron Version: pw.prok:KCauldron:1.7.10-1492.152
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_131, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 221157040 bytes (210 MB) / 951582720 bytes (907 MB) up to 1886912512 bytes (1799 MB)
+	JVM Flags: 0 total; 
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1492 38 mods loaded, 38 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCH	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCH	FML{7.10.99.99} [Forge Mod Loader] (server.jar) 
+	UCH	Forge{10.13.4.1492} [Minecraft Forge] (server.jar) 
+	UCH	kimagine{0.1} [KImagine] (minecraft.jar) 
+	UCH	appliedenergistics2-core{rv2-stable-10} [AppliedEnergistics2 Core] (minecraft.jar) 
+	UCH	CodeChickenCore{1.0.7.47} [CodeChicken Core] (minecraft.jar) 
+	UCH	Micdoodlecore{} [Micdoodle8 Core] (minecraft.jar) 
+	UCH	NotEnoughItems{1.0.5.120} [Not Enough Items] (NotEnoughItems-1.7.10-1.0.5.120-universal.jar) 
+	UCH	<CoFH ASM>{000} [CoFH ASM] (minecraft.jar) 
+	UCH	IC2{2.2.827-experimental} [IndustrialCraft 2] (industrialcraft-2-2.2.827-experimental.jar) 
+	UCH	AdvancedMachines{1.1.6} [IC2 Advanced Machines Addon] (AdvancedMachinesAS-1.7.10.jar) 
+	UCH	AdvancedSolarPanel{1.7.10-3.5.1} [Advanced Solar Panels] (AdvancedSolarPanel-1.7.10-3.5.1.jar) 
+	UCH	ATG{0.10.0} [Alternate Terrain Generation] (Alternate_Terrain_Generation_Mod_1.7.10.jar) 
+	UCH	appliedenergistics2{rv2-stable-10} [Applied Energistics 2] (appliedenergistics2-rv2-stable-10.jar) 
+	UCH	GalacticraftCore{3.0.12} [Galacticraft Core] (GalacticraftCore-1.7-3.0.12.464.jar) 
+	UCH	BlankPlanet{0.4} [Blank Planet] (BlankPlanet-0.4.jar) 
+	UCH	CoFHCore{1.7.10R3.1.4} [CoFH Core] (CoFHCore-[1.7.10]3.1.4-329.jar) 
+	UCH	Forestry{3.6.12.3} [Forestry for Minecraft] (forestry_1.7.10-3.6.12.3.jar) 
+	UCH	GalacticraftMars{3.0.12} [Galacticraft Planets] (Galacticraft-Planets-1.7-3.0.12.464.jar) 
+	UCE	GalaxySpace{1.1.5} [GalaxySpace] (GalaxySpace-1.1.5 STABLE.jar) 
+	UCH	GraviSuite{1.7.10-2.0.3} [Graviation Suite] (GraviSuite_1.7.10_2.0.3.jar) 
+	UCH	IC2CA{1.14.5.06} [IndustrialCraft 2 Combo Armors] (ic2ca-1.7.10-1.14.5.06.jar) 
+	UCH	IC2NuclearControl{2.4.2a} [Nuclear Control 2] (IC2NuclearControl-2.4.2a.jar) 
+	UCH	inventorytweaks{1.58-147-645ca10} [Inventory Tweaks] (InventoryTweaks-1.58-147.jar) 
+	UCH	IronChest{6.0.60.741} [Iron Chest] (ironchest-1.7.10-6.0.60.741-universal.jar) 
+	UCH	Mantle{1.7.10-0.3.2.jenkins191} [Mantle] (Mantle-1.7.10-0.3.2b.jar) 
+	UCH	ForgeMultipart{1.2.0.345} [Forge Multipart] (ForgeMultipart-1.7.10-1.2.0.345-universal.jar) 
+	UCH	MrTJPCoreMod{1.1.0.33} [MrTJPCore] (MrTJPCore-1.1.0.33-universal.jar) 
+	UCH	ProjRed|Core{4.7.0pre12.95} [ProjectRed Core] (ProjectRed-1.7.10-4.7.0pre12.95-Base.jar) 
+	UCH	ProjRed|Integration{4.7.0pre12.95} [ProjectRed Integration] (ProjectRed-1.7.10-4.7.0pre12.95-Integration.jar) 
+	UCH	ProjRed|Transmission{4.7.0pre12.95} [ProjectRed Transmission] (ProjectRed-1.7.10-4.7.0pre12.95-Integration.jar) 
+	UCH	ProjRed|Fabrication{4.7.0pre12.95} [ProjectRed Fabrication] (ProjectRed-1.7.10-4.7.0pre12.95-Fabrication.jar) 
+	UCH	ThermalFoundation{1.7.10R1.2.6} [Thermal Foundation] (ThermalFoundation-[1.7.10]1.2.6-118.jar) 
+	UCH	ThermalDynamics{1.7.10R1.2.1} [Thermal Dynamics] (ThermalDynamics-[1.7.10]1.2.1-172.jar) 
+	UCH	ThermalExpansion{1.7.10R4.1.5} [Thermal Expansion] (ThermalExpansion-[1.7.10]4.1.5-248.jar) 
+	UCH	Waila{1.5.10} [Waila] (Waila_1.5.10_1.7.10.jar) 
+	UCH	McMultipart{1.2.0.345} [Minecraft Multipart Plugin] (ForgeMultipart-1.7.10-1.2.0.345-universal.jar) 
+	UCH	ForgeMicroblock{1.2.0.345} [Forge Microblocks] (ForgeMultipart-1.7.10-1.2.0.345-universal.jar) 
+	AE2 Version: stable rv2-stable-10 for Forge 10.13.2.1291
+	CoFHCore: -[1.7.10]3.1.4-329
+	Mantle Environment: DO NOT REPORT THIS CRASH! Unsupported mods in environment: bukkit
+	ThermalFoundation: -[1.7.10]1.2.6-118
+	ThermalDynamics: -[1.7.10]1.2.1-172
+	ThermalExpansion: -[1.7.10]4.1.5-248
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'kcauldron,cauldron,craftbukkit,mcpc,fml,forge'
+	Type: Dedicated Server (map_server.txt)

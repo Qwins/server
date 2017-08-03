@@ -1,0 +1,26 @@
+uuid: 98318559-1501-343f-9250-1d3a99e0167d
+timestamps:
+  login: 1485292767148
+  kits:
+    premium: 1485291546831
+    start: 1485288115852
+    vip: 1485211296326
+  logout: 1485301562602
+  lastheal: 1485211103061
+  lastteleport: 1485301360959
+ipAddress: 37.44.92.39
+lastlocation:
+  world: world
+  x: 1502.569013784047
+  y: 109.24716862164614
+  z: 1364.8531440714019
+  yaw: -5.689453
+  pitch: 19.200035
+logoutlocation:
+  world: world
+  x: -851.0801210817349
+  y: 89.73500263202524
+  z: 1227.6908862164466
+  yaw: -19.500101
+  pitch: 66.6
+afk: false

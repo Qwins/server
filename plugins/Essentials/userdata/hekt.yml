@@ -1,0 +1,47 @@
+uuid: 17dcbaea-e6d1-33fc-8187-07756a50269c
+timestamps:
+  login: 1493046371387
+  logout: 1493041540411
+  lastteleport: 1493039581778
+  kits:
+    warrior: 1492870482044
+    tester: 1492883808695
+    start: 1492868919418
+    dekor: 1492870682625
+    miner: 1492870458541
+  mute: 0
+  jail: 0
+ipAddress: 37.52.90.116
+lastlocation:
+  world: world
+  x: 506.86603373999486
+  y: 90.83791399020541
+  z: 287.80233266095934
+  yaw: -45.217438
+  pitch: 32.945442
+godmode: true
+logoutlocation:
+  world: world
+  x: 270.36494573533224
+  y: 65.49064318920136
+  z: 228.9731935244903
+  yaw: 143.69583
+  pitch: 30.74999
+homes:
+  dom:
+    world: world
+    x: -904.6551649401432
+    y: 63.0
+    z: 960.558100812943
+    yaw: 282.34094
+    pitch: 7.0499835
+  dom2:
+    world: world
+    x: -708.4225532136445
+    y: 69.0
+    z: 634.2855962848051
+    yaw: 299.88593
+    pitch: 21.000006
+afk: false
+muted: false
+jailed: false

@@ -1,0 +1,22 @@
+uuid: ac6f2ae6-247d-37eb-85c0-77443f947e9a
+timestamps:
+  login: 1483940709092
+  logout: 1483940876244
+  kits:
+    start: 1483896592641
+  lastteleport: 1483940773720
+ipAddress: 37.113.164.178
+lastlocation:
+  world: world
+  x: 980.2772821708653
+  y: 73.13166942065475
+  z: 806.3076323123724
+  yaw: 210.75055
+  pitch: 8.69998
+logoutlocation:
+  world: world
+  x: -133.69999998807907
+  y: 136.41874139136732
+  z: 157.87180591898223
+  yaw: 99.60021
+  pitch: 24.300028

@@ -1,0 +1,60 @@
+uuid: 93684946-654b-38de-aa1b-ba57557e7647
+timestamps:
+  login: 1501107956140
+  logout: 1493048803511
+  lastteleport: 1493048796345
+  kits:
+    all: 1493024988266
+    cornemanq: 1485085551883
+    warrior: 1493024959265
+    tester: 1485085241818
+    start: 1493024909017
+    miner2: 1493025692997
+    tools: 1493017747674
+    premium1: 1485085338292
+    miner: 1493025695697
+    corneman: 1485085542874
+    warrior2: 1493025633416
+    dekor: 1493024919075
+    energy: 1493024979867
+  lastheal: 1493039748452
+ipAddress: 127.0.0.1
+logoutlocation:
+  world: world
+  x: 267.5657962226328
+  y: 68.0
+  z: 221.33307868784013
+  yaw: -178.56757
+  pitch: 90.0
+afk: false
+lastlocation:
+  world: world
+  x: 267.69999998807907
+  y: 38.0
+  z: 221.30000001192093
+  yaw: -87.51761
+  pitch: 63.783936
+godmode: false
+homes:
+  a:
+    world: world
+    x: 259.3000000119208
+    y: 69.0
+    z: 226.6958052395095
+    yaw: -267.77832
+    pitch: 40.94961
+  w:
+    world: world
+    x: 222.63538344471218
+    y: 70.20544045851902
+    z: 226.42231557346426
+    yaw: -85.67935
+    pitch: 13.7996235
+  r:
+    world: DIM-1
+    x: 833.9051348558821
+    y: 98.0
+    z: -865.5962693173882
+    yaw: -174.47382
+    pitch: 68.09977
+money: '40476.0'

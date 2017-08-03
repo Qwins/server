@@ -1,0 +1,26 @@
+deny-ic-interaction: true
+ic-list:
+- 218
+- 227
+- 233
+- 243
+- 246
+- 250
+deny-bc-interaction: true
+bc-list:
+- 152
+- 155
+- 157
+- 161
+- 165
+- 166
+deny-rp-interaction: true
+rp-list:
+- 137
+- 138
+- 251
+- 195
+- 196
+custom-list: []
+deny-lever: true
+msg: '&cSorry, I can''t let you do that.'

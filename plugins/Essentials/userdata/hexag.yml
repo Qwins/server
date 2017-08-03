@@ -1,0 +1,34 @@
+uuid: 15ecaded-c22c-3f45-bbfa-7dd05e41dea2
+timestamps:
+  login: 1488708159003
+  logout: 1488710089706
+  jail: 1488711011221
+  kits:
+    start: 1488708220315
+  mute: 1488710984468
+ipAddress: 5.18.63.49
+lastlocation:
+  world: world
+  x: 259.5
+  y: 70.0
+  z: 301.5
+  yaw: 358.79172
+  pitch: 1.9499983
+logoutlocation:
+  world: world
+  x: -636.2221419926547
+  y: 91.48336209601683
+  z: 2475.751986386312
+  yaw: 151.80109
+  pitch: 19.349983
+jailed: true
+homes:
+  home:
+    world: world
+    x: -125.42350693579667
+    y: 89.0
+    z: 1470.360063780812
+    yaw: 294.45264
+    pitch: 35.849987
+muted: true
+jail: '1'

@@ -1,0 +1,25 @@
+# enable: Should the plugin be enabled?
+# message-format: The standard message-format.
+# global-message-format: The message-format if ranged-mode is enabled.
+# ranged-mode: Should the ranged-mode be enabled?
+# chat-range: The range to talk to other players.
+# multi-prefixes: Should the multi-prefixes be enabled? See readme.txt for more info.
+# multi-suffixes: Should the multi-suffixes be enabled? See readme.txt for more info.
+# logChat: Should the chat be logged?
+# Priority: EventPriority for the ChatListener. See readme.txt for more info.
+# SearchForUpdates: Should the Plugin search for new Versions?
+# Debug: Enables debug mode. Enable this if you get a bug.
+# Locale: Which language do you want? (You can choose betwenn de-DE, en-EN and ru-RU by default.)
+
+enable: true
+message-format: '%prefix%player%suffix: %message'
+global-message-format: '&9[%world] %prefix%player%suffix: &e%message'
+ranged-mode: false
+chat-range: 100.0
+multi-prefixes: false
+multi-suffixes: false
+logChat: true
+Priority: LOWEST
+SearchForUpdates: true
+Debug: false
+Locale: en-EN

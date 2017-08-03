@@ -1,0 +1,182 @@
+groups:
+  default:
+    Prefix: '&f[&2Player&2] &f'
+    suffix: '&f'
+    options:
+      default: true
+    permissions:
+    - essentials.msg
+    - modifyworld.*
+    - essentials.home
+    - essentials.sethome
+    - essentials.delhome
+    - essentials.spawn
+    - essentials.balance
+    - essentials.afk
+    - essentials.motd
+    - essentials.kit
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.warp
+    - essentials.warp.list
+    - worldedit.selection.hpos
+    - worldedit.selection.pos
+    - worldedit.wand
+    - worldguard.region.claim
+    - worldguard.region.remove.own.*
+    - worldguard.region.info.own.*
+    - worldguard.region.info.member
+    - worldguard.region.info
+    - worldedit.selection.expand
+    - worldguard.region.addowner.*
+    - worldguard.region.addmember.*
+    - worldguard.region.removemember.*
+    - worldguard.region.remove.member.*
+    - worldguard.region.removeowner.*
+    - worldguard.region.select.own.*
+    - worldguard.region.flag.regions.own.*
+    - worldguard.region.list
+    - worldguard.region.wand
+    - worldguard.region.flag.flags.pvp.*
+    - worldguard.region.flag.flags.mob-spawning.*
+    - worldguard.region.flag.flags.use.*
+    - randomtp.tp
+    - worldguard.region.flag.regions.own.*
+    - randomtp.teleport
+    - iConomyChestShop.shop.create
+    - iConomyChestShop.shop.buy
+    - iConomyChestShop.shop.sell
+    - iConomyChestShop.command.iteminfo
+    - iConomy.holdings
+    - iConomy.money
+    - iConomy.money.top
+    - essentials.kits.start
+    - essentials.helpop
+    - essentials.ignore
+    - essentials.list
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.suicide
+    - essentials.balancetop
+    - chatmanager.chat.global
+    - essentials.sethome.multiple.default
+    - chatex.allowchat
+    - chatex.chat.global
+    - creativegates.use
+    - essentials.sethome.multiple.default
+  Tester:
+    Prefix: '&2&l[&2&lTester&2&l] &2'
+    suffix: '&2'
+    options:
+      default: false
+    inheritance:
+    - default
+    permissions:
+    - essentials.keepxp
+    - essentials.back.ondeath
+    - essentials.tpahere
+    - essentials.tppos
+    - essentials.feed
+    - essentials.fly
+    - essentials.god
+    - essentials.hat
+    - essentials.heal
+    - essentials.kits.Tester
+    - essentials.repair.all
+    - chatmanager.chat.color
+  Orion:
+    Prefix: '&e[Orion]'
+    suffix: '&2'
+    options:
+      default: false
+    inheritance:
+    - default
+    permissions:
+    - essentials.joinfullserver
+    - essentials.back.ondeath
+    - essentials.back
+    - essentials.near
+    - essentials.firework
+    - essentials.tpahere
+    - essentials.fly
+    - essentials.tpa
+    - essentials.feed
+    - essentials.craft
+    - essentials.enderchest
+    - essentials.hat
+    - essentials.hetpos
+    - essentials.depth
+    - essentials.kits.dekor
+    - essentials.kits.miner
+    - essentials.kits.warrior
+    - essentials.sethome.multiple.orion
+  Krypton:
+    Prefix: '&d[Krypton]'
+    suffix: '&9'
+    options:
+      default: false
+    inheritance:
+    - Orion
+    - default
+    permissions:
+    - essentials.signs.color
+    - essentials.ptime
+    - essentials.heal
+    - essentials.jumpto
+    - worldguard.region.flag.flags.greeting.*
+    - worldguard.region.flag.flags.farewell.*
+    - scavenger.level
+    - essentials.kits.miner2
+    - essentials.kits.warrior2
+    - essentials.sethome.multiple.krypton
+  Titan:
+    Prefix: '&c[Titan]'
+    suffix: '&1'
+    options:
+      default: false
+    inheritance:
+    - Krypron
+    - Orion
+    - default
+    permissions:
+    - essentials.chat.color
+    - essentials.ext.others
+    - essentials.ext
+    - essentials.speed.3
+    - scavenger.scavenge
+    - essentials.kits.energy
+    - essentials.sethome.multiple.titan
+  Corner:
+    Prefix: '&c[Corner]'
+    suffix: '&1'
+    options:
+      default: false
+    inheritance:
+    - Titan
+    - Krypron
+    - Orion
+    - default
+    permissions:
+    - essentials.tppos
+    - essentials.speed.7
+    - essentials.god
+    - essentials.clear
+    - essentials.ptime
+    - essentials.pweather
+    - essentials.kits.all
+    - - essentials.sethome.multiple.corner
+  Admin:
+    prefix: '&4&l[&4&4Admin&4&l] &4'
+    suffix: '&4'
+    options:
+      default: false
+    permissions:
+    - '*'
+schema-version: 1
+users:
+  cf4ab0b3-1a84-34cc-9487-87343ea2c2df:
+    group:
+    - Admin
+    options:
+      name: Drage

@@ -1,0 +1,21 @@
+uuid: 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+timestamps:
+  login: 1483461445397
+  lastteleport: 1483388489927
+  logout: 1483462211726
+ipAddress: 95.52.118.143
+lastlocation:
+  world: world
+  x: -676.5
+  y: 69.0
+  z: 263.5
+  yaw: 301.44717
+  pitch: 57.149994
+godmode: true
+logoutlocation:
+  world: world
+  x: -695.6599115718195
+  y: 74.7800379143069
+  z: 265.2752230998625
+  yaw: 47.34729
+  pitch: 21.749996

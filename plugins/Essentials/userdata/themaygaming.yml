@@ -1,0 +1,28 @@
+uuid: 121ecd0c-100a-3083-a983-f905366621b4
+timestamps:
+  login: 1493048245662
+  logout: 1493046501556
+  lastteleport: 1493048819279
+  kits:
+    warrior: 1493034716764
+    start: 1493037433593
+    dekor: 1493034699293
+    miner: 1493034687169
+    energy: 1493035567099
+  lastheal: 1493034969849
+ipAddress: 37.194.239.233
+logoutlocation:
+  world: world
+  x: 273.9007685348565
+  y: 65.0
+  z: 222.42476693018443
+  yaw: 88.73224
+  pitch: 8.883916
+lastlocation:
+  world: world
+  x: 437.06251437576685
+  y: 65.98137650691874
+  z: 500.4914045897119
+  yaw: -268.42023
+  pitch: 37.949993
+money: '0.0'

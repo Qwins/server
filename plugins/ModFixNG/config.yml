@@ -1,0 +1,46 @@
+BackPackFix:
+  enabled: true
+  restrict19ButtonClick:
+    enabled: true
+    inventoryNames: []
+  fixCropanalyzer:
+    enabled: true
+  fixToolbox:
+    enabled: true
+ProperlyCloseInventories:
+  checkBlocks:
+    enabled: true
+    materials: []
+  checkEntities:
+    enabled: true
+    types: []
+ValidateActions:
+  enabled: true
+ForceSyncSlots:
+  enabled: true
+Restrict19ButtonClick:
+  enabled: true
+  inventoryNames: []
+RestrictShiftButtonClick:
+  enabled: true
+  inventoryNames:
+  - appeng.container.implementations.ContainerPatternTerm
+  - cofh.thermalexpansion.gui.container.ContainerWorkbench
+  - galaxyspace.SolarSystem.core.coremod.inventory.GSContainerSchematicTier1Rocket
+  - galaxyspace.SolarSystem.core.coremod.inventory.GSContainerSchematicTier4Rocket
+  - galaxyspace.SolarSystem.core.coremod.inventory.GSContainerSchematicTier3Rocket
+  - galaxyspace.SolarSystem.core.coremod.inventory.GSContainerSchematicTier7Rocket
+  - galaxyspace.SolarSystem.core.coremod.inventory.GSContainerSchematicTier2Rocket
+  - galaxyspace.SolarSystem.core.coremod.inventory.GSContainerSchematicTier5Rocket
+  - galaxyspace.SolarSystem.core.coremod.inventory.GSContainerSchematicTier6Rocket
+  - galaxyspace.SolarSystem.core.coremod.inventory.GSContainerSchematicTier8Rocket
+MultipartFix:
+  enabled: true
+  itemMaterial: AIR
+  blockMaterial: AIR
+ForestryCraftingContainersFix:
+  enabled: true
+ValidateBeaconEffectsChoice:
+  enabled: true
+CleanupBookMeta:
+  enabled: true

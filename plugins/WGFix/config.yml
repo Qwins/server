@@ -1,0 +1,9 @@
+enable: true
+commands:
+  enable: true
+  list: []
+entitis: []
+flags:
+  enable: true
+flag-delay: 10
+entity-protect: false

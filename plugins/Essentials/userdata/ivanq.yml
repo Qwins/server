@@ -1,0 +1,24 @@
+uuid: ec02a7f2-18b3-3f4d-b3d2-773db1c3c262
+timestamps:
+  login: 1488666131820
+  lastteleport: 1488664511444
+  logout: 1488666755808
+  kits:
+    premium: 1488666195770
+    vip: 1488666182219
+ipAddress: 93.84.50.228
+lastlocation:
+  world: world
+  x: -521.4035944339169
+  y: 72.0
+  z: 1171.3858664286145
+  yaw: 74.70079
+  pitch: 14.249964
+logoutlocation:
+  world: world
+  x: -419.4563920866201
+  y: 86.0
+  z: 721.0288939434715
+  yaw: -195.8996
+  pitch: 42.6
+godmode: true

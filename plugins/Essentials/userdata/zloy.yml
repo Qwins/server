@@ -1,0 +1,56 @@
+uuid: 5162515f-2f37-3bf5-8883-78d86a3332d9
+timestamps:
+  login: 1493048286349
+  logout: 1493040693627
+  lastteleport: 1493048744066
+  kits:
+    all: 1493031779588
+    warrior: 1492868979745
+    start: 1493046702756
+    dekor: 1492868366342
+    miner: 1492869005555
+    energy: 1492868967789
+  jail: 0
+  mute: 0
+  lastheal: 1493039573924
+ipAddress: 185.146.212.213
+lastlocation:
+  world: world
+  x: 418.6226099797933
+  y: 66.0
+  z: 518.9360478010598
+  yaw: 31.429739
+  pitch: 9.150007
+logoutlocation:
+  world: world
+  x: 126.30000001192093
+  y: 77.0
+  z: 254.13851615463628
+  yaw: 200.7677
+  pitch: 15.044477
+godmode: false
+homes:
+  home:
+    world: world
+    x: -895.044749086415
+    y: 63.0
+    z: 967.4522493181162
+    yaw: -269.51218
+    pitch: 7.7999268
+  stancia:
+    world: DIM_SPACESTATION3
+    x: -1.30000001192093
+    y: 64.0
+    z: 0.394728276354215
+    yaw: 95.29974
+    pitch: 63.987816
+  gora:
+    world: world
+    x: -702.3322174835316
+    y: 69.0
+    z: 633.0322995002911
+    yaw: 98.739746
+    pitch: 14.550004
+afk: false
+jailed: false
+muted: false
