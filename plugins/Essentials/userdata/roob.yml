@@ -1,7 +1,7 @@
 uuid: 93684946-654b-38de-aa1b-ba57557e7647
 timestamps:
-  login: 1501107956140
-  logout: 1493048803511
+  login: 1501781364671
+  logout: 1501780538353
   lastteleport: 1493048796345
   kits:
     all: 1493024988266
@@ -21,11 +21,11 @@ timestamps:
 ipAddress: 127.0.0.1
 logoutlocation:
   world: world
-  x: 267.5657962226328
-  y: 68.0
-  z: 221.33307868784013
-  yaw: -178.56757
-  pitch: 90.0
+  x: 200.43819698721282
+  y: 77.0
+  z: 133.24150326772138
+  yaw: -158.0001
+  pitch: 48.89998
 afk: false
 lastlocation:
   world: world

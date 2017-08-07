@@ -21,29 +21,25 @@ messages:
 commands:
   tab-complete: true
   log: true
-stats:
-  disable-saving: false
-  forced-stats: {}
 settings:
-  bungeecord: false
   fullMatchRate: 10
-  player-shuffle: 0
+  bungeecord: false
   timeout-time: 90
   restart-on-crash: false
   restart-script: ../.control/start.sh
   late-bind: false
   sample-count: 12
   netty-threads: 4
+  player-shuffle: 0
+stats:
+  disable-saving: false
+  forced-stats: {}
 world-settings:
   default:
     verbose: false
-    merge-radius:
-      exp: 3.0
-      item: 2.5
-    chunks-per-tick: 650
-    clear-tick-list: false
-    max-entity-collisions: 8
-    random-light-updates: false
+    ticks-per:
+      hopper-transfer: 8
+      hopper-check: 8
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -52,12 +48,30 @@ world-settings:
       pumpkin-modifier: 100
       sapling-modifier: 100
       wheat-modifier: 100
+    entity-tracking-range:
+      players: 48
+      animals: 48
+      monsters: 48
+      misc: 32
+      other: 64
+    random-light-updates: false
     save-structure-info: true
+    merge-radius:
+      exp: 3.0
+      item: 2.5
+    item-despawn-rate: 6000
+    arrow-despawn-rate: 1200
+    zombie-aggressive-towards-villager: true
+    enable-zombie-pigmen-portal-spawns: true
+    chunks-per-tick: 650
+    clear-tick-list: false
     entity-activation-range:
       animals: 32
       monsters: 32
       misc: 16
-    max-bulk-chunks: 5
+    mob-spawn-range: 4
+    max-entity-collisions: 8
+    view-distance: 10
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -79,21 +93,7 @@ world-settings:
       - 1
       - 5
     nerf-spawner-mobs: false
-    ticks-per:
-      hopper-transfer: 8
-      hopper-check: 8
     max-tick-time:
       tile: 50
       entity: 50
-    item-despawn-rate: 6000
-    enable-zombie-pigmen-portal-spawns: true
-    zombie-aggressive-towards-villager: true
-    arrow-despawn-rate: 1200
-    entity-tracking-range:
-      players: 48
-      animals: 48
-      monsters: 48
-      misc: 32
-      other: 64
-    view-distance: 10
-    mob-spawn-range: 4
+    max-bulk-chunks: 5

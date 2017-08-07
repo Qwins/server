@@ -1,2 +1,0 @@
-default: '[{Group}] [{Prefix}] <{Player}>: {Message}'
-Admin: '[{Group}] [{Prefix}] <{Player}>: {Message}'

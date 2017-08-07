@@ -180,3 +180,8 @@ users:
     - Admin
     options:
       name: Drage
+  93684946-654b-38de-aa1b-ba57557e7647:
+    group:
+    - Admin
+    options:
+      name: RooB

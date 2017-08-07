@@ -31,7 +31,7 @@ System:
       # Major is the first segment [Major].Minor
 
       # Major ([Major].Minor) 1.00 Dollar (With Seperate 1 Dollar)
-      Major: [ 'Корнов', 'Корн' ]
+      Major: [ 'Dollar', 'Dollars' ]
 
       # Minor (Major.[Minor]) 0.23 Coins  (With Seperate 0 Dollars, 23 Coins)
       Minor: [ 'Coin', 'Coins' ]
@@ -55,7 +55,7 @@ System:
     # Instead of 1.23 Dollars you will see: 1 Dollar.
     # If your money is 0.23 you will see 0 Dollars if Minor is false, 23 Coins if Minor is true.
     # !!! Notice: This overrides seperate !!!
-    Single: true
+    Single: false
 
   # Logs all monetary transactions passed through iConomy
   Logging:
@@ -117,7 +117,7 @@ System:
     ##
     # postgre, postgreSQL, postgreDB
     #  - These will attempt to connect to PostgreSQL
-    Type: 'mysql'
+    Type: 'minidb'
     
     # These are for InventoryDB only.
     #
@@ -153,11 +153,11 @@ System:
     ##
     # [MySQL Default] mysql://localhost:3306/iConomy
     # [Postgre Default] postgresql://localhost:5740/iConomy
-    URL: 'mysql://localhost:3306/own'
+    URL: 'mysql://localhost:3306/iConomy'
 
     # Login details for binary databases
     Username: 'root'
-    Password: 'BWz4X4xEYVmpuzp'
+    Password: ''
 
     ##############################################################
     # !!! Conversion is not your database settings !!!
@@ -169,7 +169,7 @@ System:
     ##############################################################
     Conversion:
       # Set to True, After converting, change this back to false!
-      Enabled: true
+      Enabled: false
 
       # Database Type, H2DB or MySQL
       Type: 'H2DB'
@@ -178,12 +178,12 @@ System:
       Table: 'iConomy'
 
       # Database URL without table at the end.
-      URL: 'mysql://localhost:3306/own'
+      URL: 'mysql://localhost:3306'
 
       # Username / Password
       # H2DB does not use this. MySQL Only.
       Username: 'root'
-      Password: 'BWz4X4xEYVmpuzp'
+      Password: ''
 
       # Unused ATM.
       All: true

@@ -31,6 +31,12 @@ world-settings:
     forestry-apiculture-gadgets-TileSwarm:
       tick-no-players: false
       tick-interval: 1
+    cofh-thermalexpansion-block-strongbox-TileStrongboxCreative:
+      tick-no-players: false
+      tick-interval: 1
+    cofh-thermalexpansion-block-strongbox-TileStrongbox:
+      tick-no-players: false
+      tick-interval: 1
     galaxyspace-BarnardsSystem-planets-barnardaC-tile-TileEntityBlockStalactite:
       tick-no-players: false
       tick-interval: 1
@@ -428,9 +434,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     info-jbcs-minecraft-vending-tileentity-TileEntityVendingMachine:
-      tick-no-players: false
-      tick-interval: 1
-    cofh-thermalexpansion-block-strongbox-TileStrongbox:
       tick-no-players: false
       tick-interval: 1
     buildcraft-energy-TileEngineIron:

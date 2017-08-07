@@ -71,16 +71,16 @@ world-settings:
     infinite-water-source: true
     entity-despawn-immediate: false
     worldgen-MrTJPCoreMod-SimpleGenHandler$: true
-    worldgen-GalaxySpace-OverworldGenerator: true
-    worldgen-Forestry-WorldGenerator: true
     worldgen-ATG-ATGWorldGenRocks: true
-    worldgen-CoFHCore-WorldHandler: true
-    worldgen-ATG-ATGWorldGenHighAltitudePockets: true
-    worldgen-ATG-ATGWorldGenHighAltitudeOres: true
-    worldgen-IC2-IC2: true
+    worldgen-GalaxySpace-OverworldGenerator: true
     worldgen-ATG-ATGWorldGenCliffs: true
-    worldgen-appliedenergistics2-MeteoriteWorldGen: true
+    worldgen-IC2-IC2: true
+    worldgen-Forestry-WorldGenerator: true
+    worldgen-ATG-ATGWorldGenHighAltitudePockets: true
     worldgen-appliedenergistics2-QuartzWorldGen: true
+    worldgen-CoFHCore-WorldHandler: true
+    worldgen-appliedenergistics2-MeteoriteWorldGen: true
+    worldgen-ATG-ATGWorldGenHighAltitudeOres: true
     worldgen-GalacticraftCore-OverworldGenerator: true
     worldgen-chisel-GeneratorChisel: true
   max-players-visible: -1
